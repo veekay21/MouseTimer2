@@ -29,20 +29,31 @@
 		B08688DE2D1949A900E41ADA /* MouseTimer2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MouseTimer2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B08688F52D194A1200E41ADA /* Exceptions for "MouseTimer2" folder in "MouseTimer2Tests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				bonk.wav,
+			);
+			target = B08688D32D1949A900E41ADA /* MouseTimer2Tests */;
+		};
+		B08688F62D194A1200E41ADA /* Exceptions for "MouseTimer2" folder in "MouseTimer2UITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				bonk.wav,
+			);
+			target = B08688DD2D1949A900E41ADA /* MouseTimer2UITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B08688C52D1949A700E41ADA /* MouseTimer2 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B08688F52D194A1200E41ADA /* Exceptions for "MouseTimer2" folder in "MouseTimer2Tests" target */,
+				B08688F62D194A1200E41ADA /* Exceptions for "MouseTimer2" folder in "MouseTimer2UITests" target */,
+			);
 			path = MouseTimer2;
-			sourceTree = "<group>";
-		};
-		B08688D72D1949A900E41ADA /* MouseTimer2Tests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MouseTimer2Tests;
-			sourceTree = "<group>";
-		};
-		B08688E12D1949A900E41ADA /* MouseTimer2UITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MouseTimer2UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -76,8 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				B08688C52D1949A700E41ADA /* MouseTimer2 */,
-				B08688D72D1949A900E41ADA /* MouseTimer2Tests */,
-				B08688E12D1949A900E41ADA /* MouseTimer2UITests */,
 				B08688C42D1949A700E41ADA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +139,6 @@
 			dependencies = (
 				B08688D62D1949A900E41ADA /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				B08688D72D1949A900E41ADA /* MouseTimer2Tests */,
-			);
 			name = MouseTimer2Tests;
 			packageProductDependencies = (
 			);
@@ -152,9 +158,6 @@
 			);
 			dependencies = (
 				B08688E02D1949A900E41ADA /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				B08688E12D1949A900E41ADA /* MouseTimer2UITests */,
 			);
 			name = MouseTimer2UITests;
 			packageProductDependencies = (
@@ -396,7 +399,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MouseTimer2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = A6KQ974849;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -421,7 +425,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MouseTimer2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = A6KQ974849;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
